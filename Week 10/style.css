@@ -1,0 +1,58 @@
+.btn {
+
+  text-decoration: none;
+  border: 2px solid black;
+  margin-left: 50%;
+  font-size: 24px;
+  background-color: lightpink;
+  color: purple;
+  padding: 5px;
+
+}
+
+
+
+body {
+    padding-top: 30px;
+}
+
+.mymdodalwindow{
+    background-color: rgba(141,178,158,0.6);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+.mymdodalwindow:target {
+  pointer-events: all;
+      opacity: 1;
+}
+
+.msgblock {
+  background-color: white;
+  width: 50%;
+  height: 300px;
+  margin: auto;
+  margin-top: 10%;
+}
+
+
+
+.msgblock > a {
+
+    text-decoration: none;
+    border: 2px solid black;
+    margin-left: 30%;
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: lightpink;
+    color: purple;
+    padding: 3px;
+
+}
